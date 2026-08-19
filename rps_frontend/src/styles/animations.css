@@ -1,0 +1,5 @@
+@keyframes pulse { 50% { opacity: .45; transform: scale(1.06); } }
+@keyframes count { from { transform: scale(1.35); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes scan { to { transform: translateY(210px); } }
+@keyframes reveal { from { transform: scale(.4) rotate(-16deg); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes sparks { 50% { letter-spacing: 18px; opacity: 1; } }

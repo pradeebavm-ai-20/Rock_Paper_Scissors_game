@@ -1,0 +1,1 @@
+export default function Countdown({ phase, countdown }) { return <section className={`countdown ${phase === 'COUNTDOWN' ? 'visible' : ''}`}><span>MAKE YOUR MOVE</span><strong key={countdown}>{countdown}</strong><small>hold your gesture steady</small></section> }
